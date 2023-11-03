@@ -51,8 +51,8 @@ class   GestaoJogo():
         print("Turno Jogador 1")
         self.turno = 1
 
-        self.coluna_escolhida1 = int(input("Coluna[0-2]: "))
-        self.linha_escolhida1 = int(input("Linha[0-2] : "))
+        self.coluna_escolhida1 = int(input("Coluna [0-2]: "))
+        self.linha_escolhida1 = int(input("Linha [0-2]: "))
         if self.coluna_escolhida1 > 2 or self.linha_escolhida1 > 2 or self.coluna_escolhida1 < 0 or self.coluna_escolhida1 < 0 and self.turno == 1:
             print("Cordenadas erradas. Valores entre 0 e 2")
             self.jogador1()
@@ -70,8 +70,8 @@ class   GestaoJogo():
     def jogador2(self):
         print( "Turno Jogador 2") 
         self.turno = 2
-        self.coluna_escolhida2 = int(input("Coluna: "))
-        self.linha_escolhida2 = int(input("Linha : "))
+        self.coluna_escolhida2 = int(input("Coluna [0-2]: "))
+        self.linha_escolhida2 = int(input("Linha [0-2] : "))
         if self.coluna_escolhida2 > 2 or self.linha_escolhida2 > 2 or self.coluna_escolhida2 < 0 or self.coluna_escolhida2 < 0 != "X" and self.turno == 2:
             print("Cordenadas erradas. Valores entre 0 e 2")    
             self.jogador2()   
