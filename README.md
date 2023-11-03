@@ -8,3 +8,6 @@ To install the game, you need to have Python 3 installed on your system. You can
 
 Once you have Python 3 installed, you can download the game by cloning the repository
 
+### Play and enjoy
+On the terminal "python3 main.py"
+
