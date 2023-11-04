@@ -12,6 +12,7 @@ Once you have Python 3 installed, you can download the game by cloning the repos
 You can also install it through the terminal.
 
 ==On Linux== -> **sudo apt install python3-pip**
+
 ==On Macos== -> **brew install python3**
 
 ### Play and enjoy
