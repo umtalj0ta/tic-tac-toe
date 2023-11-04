@@ -66,7 +66,7 @@ class GestaoJogo():
             
 
     def jogador2(self):
-        print("Turno Jogador 1")
+        print("Turno Jogador 2")
         self.turno = 1
 
         self.coluna_escolhida1 = int(input("Coluna [0-2]: "))
