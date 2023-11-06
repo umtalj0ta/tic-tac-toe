@@ -56,10 +56,10 @@ class GestaoJogo():
         self.linha_escolhida1 = int(input("Linha [0-2]: "))
         if self.coluna_escolhida1 > 2 or self.linha_escolhida1 > 2 or self.coluna_escolhida1 < 0 or self.linha_escolhida1 < 0:
             print("Cordenadas erradas. Valores entre 0 e 2")
-            self.jogador2()
+            self.jogador1()
         elif not self.tabuleiro.verificarCasaVazia(self.coluna_escolhida1, self.linha_escolhida1):
             print("Jogada Invalida, escolher um casa vazia")
-            self.jogador2()
+            self.jogador1()
         else:
             self.tabuleiro.setValorCasa(self.coluna_escolhida1, self.linha_escolhida1, "O")
         
